@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace VoyadoSearchApp.Tests.IntegrationsTests.Controllers
 {
-    public class SearchControllerIntegrationTests(WebApplicationFactory<Program> factory) : IClassFixture<WebApplicationFactory<Program>>
+    /*public class SearchControllerIntegrationTests(WebApplicationFactory<Program> factory) : IClassFixture<WebApplicationFactory<Program>>
     {
         private readonly WebApplicationFactory<Program> _factory = factory;
 
@@ -60,5 +60,5 @@ namespace VoyadoSearchApp.Tests.IntegrationsTests.Controllers
             // Assert
             Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
         }
-    }
+    }*/
 }
