@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyadoSearchApp.Api", "VoyadoSearchApp\VoyadoSearchApp.Api.csproj", "{70D3F3F1-E775-4140-8D2C-102D164E9237}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoyadoSearchApp.Logic", "VoyadoSearchApp.Logic\VoyadoSearchApp.Logic.csproj", "{CCA4A44D-E52C-42FB-8EC6-6209AF04346D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoyadoSearchApp.Tests", "VoyadoSearchApp.Tests\VoyadoSearchApp.Tests.csproj", "{408EEBCC-B7F8-486F-BD0C-E183352F87D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoyadoSearchApp.Integrations", "VoyadoSearchApp-Integrations\VoyadoSearchApp.Integrations.csproj", "{2B20E2F2-D904-45E5-ACE7-EFCCE8B2D876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70D3F3F1-E775-4140-8D2C-102D164E9237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D3F3F1-E775-4140-8D2C-102D164E9237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D3F3F1-E775-4140-8D2C-102D164E9237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D3F3F1-E775-4140-8D2C-102D164E9237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA4A44D-E52C-42FB-8EC6-6209AF04346D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA4A44D-E52C-42FB-8EC6-6209AF04346D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA4A44D-E52C-42FB-8EC6-6209AF04346D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA4A44D-E52C-42FB-8EC6-6209AF04346D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408EEBCC-B7F8-486F-BD0C-E183352F87D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408EEBCC-B7F8-486F-BD0C-E183352F87D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408EEBCC-B7F8-486F-BD0C-E183352F87D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408EEBCC-B7F8-486F-BD0C-E183352F87D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B20E2F2-D904-45E5-ACE7-EFCCE8B2D876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B20E2F2-D904-45E5-ACE7-EFCCE8B2D876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B20E2F2-D904-45E5-ACE7-EFCCE8B2D876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B20E2F2-D904-45E5-ACE7-EFCCE8B2D876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB8C29DC-C9D2-4457-A981-BA6882E12139}
+	EndGlobalSection
+EndGlobal
